@@ -1,0 +1,9 @@
+.title {
+   color: #ffffff;
+   font-size: 36px;
+   font-weight: 700;
+   &_left {
+      max-width: 710px;
+      text-align: left;
+   }
+}
