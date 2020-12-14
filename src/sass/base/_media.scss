@@ -34,6 +34,21 @@
    .title_left {
       font-size: 30px;
    }
+   .catalog {
+      &__content {
+         justify-content: space-evenly;
+      }
+   }
+   .footer {
+      &__info {
+         width: 460px;
+         height: 240px;
+      }
+      &__adress {
+         font-size: 16px;
+
+      }
+   }
 }
 
 @media (max-width: 768px){
@@ -111,6 +126,20 @@
    .button__wrapper {
       text-align: center;
    }
+   .catalog {
+      &__tab {
+         width: 185px;
+         font-size: 12px;
+         transform: unset;
+         div {
+            transform: unset;
+            line-height: 50px;
+         }
+      }
+   }
+   .reviews-item {
+      padding: 30px 0;
+   }
 }
 
 @media (max-width: 575px){
@@ -154,6 +183,41 @@
    }
    .br_none {
       display: none;
+   }
+
+   .catalog {
+      padding-bottom: 40px;
+      &__tab {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         div {
+            line-height: 23px;
+         }
+      }
+   }
+   .reviews {
+      &__title {
+         font-size: 25px;;
+      }
+   }
+   .reviews-item {
+      flex-direction: column;
+
+      img {
+         display: block;
+         margin: 0 auto;
+      }
+      &__subtitle {
+         text-align: center;
+         margin-top: 5px;
+      }
+      &__marathons {
+         text-align: center;
+      }
+      &__descr {
+         margin-left: 0px;
+      }
    }
 }
   
